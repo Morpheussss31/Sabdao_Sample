@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: lightpink;
+    background-color: #7102f8cb;
+}
+
+.title a {
+    color:lightpink;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 100px;
+    text-shadow: rgb(157, 0, 225) 9px 9px 0.5em;
+}
+
+.title a :hover {
+    background-color: rgba(85, 22, 231, 0.678);
+    color: #02e8f8cb;
+}
+
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 590px;
+    display: grid;
+    padding: 100px, 50px;
+    background-image: url(../imgg-20240429T010351Z-001/imgg/ming.jpg);
+    width: auto;
+}
+
+.container{
+    place-self: center;
+    text-align: center;
+    color: lightpink;
+    padding: 100px;
+    text-shadow: rgb(157, 0, 225) 9px 9px 0.5em;
+}
+
+.container{
+    padding:40px;
+    color: lightpink;
+    text-shadow: rgb(157, 0, 225) 9px 9px 0.5em;
+}
+
+.about {
+    padding: 100px 0px;
+    display: flex;
+    background-color: peachpuff;
+    color: aquamarine;
+    background-image: url(../imgg/bg1.jpg);
+}
+
+.content {
+    text-align: left;
+    place-self: center;
+    line-height: 20px;
+    padding: 50px 50px;
+    width: 50%;
+    letter-spacing: 0.8px;
+    color: lightpink;
+    word-spacing: 5px;
+    font-size: 15px;
+    text-shadow: rgb(157, 0, 225) 9px 9px 0.5em;
+}
+
+.about-image {
+    place-self: center;
+    width: 50%;
+}
+
+.about-image img {
+    width: 600px;
+    height: 355px;
+    border: 2px;
+}
+
+.gallery-image{
+    padding: 100px 50px;
+    height: auto;
+    background-image: linear-gradient(#000761,#440088,#9F4580,#e54ed0);
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    background-size: cover;
+}
+
+.gallery-image{
+    text-align: center;
+    text-shadow: rgb(157, 0, 225) 9px 9px 0.5em;
+}
+
+
+.div.gallery img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid#fff;
+}
+
+.responsive{
+    padding: 6px 6px;
+    display: inline-grid;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.gallery{
+    border: 5px solid violet;
+    padding: 2px;
+}
+
+.hobbies-image{
+padding: 100px 50px;
+height: auto;
+background-image:linear-gradient(rgb(22, 158, 243),pink,orange,rgb(80, 238, 162));
+background-repeat: no-repeat;
+background-position:bottom ;
+background-size: cover;
+}
+
+.div.hobbies-img{
+width: 100%;
+height: 400px;
+object-fit: cover;
+object-position: top;
+border: 2px solid#fff;
+background: linear-gradient(pink 25%,aquamarine 25%);
+}
+
+.inter{
+padding: 6px 6px;
+display: inline-grid;
+width: 33%;
+box-sizing: border-box;
+}
+
+.hobby-interest{
+    text-align: center;
+    color: rgba(113, 3, 247, 0.993);
+    border: 5px solid violet;
+}
